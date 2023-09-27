@@ -1,0 +1,137 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f0efef;
+}
+
+/*CABEÇALHO*/
+
+#cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+    #cabecalho a:link, #cabecalho a:visited{
+        color:#fff;
+        padding: 8px 12px;
+
+    }
+    
+    #cabecalho a:hover{
+        color:#f7b600;
+        background-color: #fff;
+        
+    }
+
+    
+#logo{
+    padding:10px;
+}
+    h1{
+        color: #4e4e4e;
+        font-size: 2.5em;
+    }
+        .cor_branca{
+            color: #fff;
+        }
+
+#menu{
+    padding:10px;
+}
+    a {
+        text-decoration: none;
+
+    }
+
+
+/*AREA PRINCIPAL*/
+            
+#principal{
+    width: 920px; /*largura padrão para dispositivos modernos*/
+    margin: 0px auto;
+    padding: 15px;
+}
+
+    #posts{
+        width: 660px;
+        float:left;
+    }
+        .postagens{
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #fff;
+        }
+            h2{
+                color:#f7b600;
+                
+            }
+
+            .data-postagem{
+                font-size: 0.8em;
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+                display:block;
+                border-bottom: 2px solid #f4f4f4;
+            }
+
+            .postagens p {
+                text-align: justify;
+                text-indent: 1em;
+                line-height: 1.5em;
+                
+            } 
+
+            img {
+                width: 620px;
+            }
+            
+            a {
+                color:#f7b600;
+            } 
+
+            a:hover{
+               text-decoration: underline;
+            }
+
+/* Conteúdo Direito*/
+
+.lateral{
+    width: 240px;
+    float: right;
+    
+}
+    .conteudo-lateral{
+        background: #fff;
+        padding: 10px;
+    }
+
+        h3 {
+            color:#565656;
+            background: #ccc;
+            padding: 5px;
+            
+        }
+
+        .texto-lateral {
+            font-size: 14px;
+            line-height: 1.3em;
+            margin-top:10px;
+        }
+
+        ul{
+            list-style-type: none;
+           
+        }
+
+#rodape{
+    clear:both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+    
+}
